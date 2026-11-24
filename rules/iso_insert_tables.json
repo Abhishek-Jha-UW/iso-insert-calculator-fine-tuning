@@ -1,0 +1,596 @@
+{
+  "version": "1",
+  "shapes": {
+    "C": {
+      "shape": "Rhombic",
+      "nose_angle_deg": 80,
+      "edge_count_per_side": 2
+    },
+    "D": {
+      "shape": "Rhombic",
+      "nose_angle_deg": 55,
+      "edge_count_per_side": 2
+    },
+    "V": {
+      "shape": "Rhombic",
+      "nose_angle_deg": 35,
+      "edge_count_per_side": 2
+    },
+    "S": {
+      "shape": "Square",
+      "nose_angle_deg": 90,
+      "edge_count_per_side": 4
+    },
+    "T": {
+      "shape": "Triangle",
+      "nose_angle_deg": 60,
+      "edge_count_per_side": 3
+    },
+    "W": {
+      "shape": "Trigon",
+      "nose_angle_deg": 80,
+      "edge_count_per_side": 3
+    },
+    "R": {
+      "shape": "Round",
+      "nose_angle_deg": 360,
+      "edge_count_per_side": 6
+    },
+    "L": {
+      "shape": "Rectangular",
+      "nose_angle_deg": 90,
+      "edge_count_per_side": 4
+    },
+    "K": {
+      "shape": "Parallelogram",
+      "nose_angle_deg": 55,
+      "edge_count_per_side": 2
+    },
+    "B": {
+      "shape": "Parallelogram",
+      "nose_angle_deg": 82,
+      "edge_count_per_side": 2
+    },
+    "A": {
+      "shape": "Parallelogram",
+      "nose_angle_deg": 85,
+      "edge_count_per_side": 2
+    },
+    "E": {
+      "shape": "Rhombic",
+      "nose_angle_deg": 75,
+      "edge_count_per_side": 2
+    },
+    "M": {
+      "shape": "Rhombic",
+      "nose_angle_deg": 86,
+      "edge_count_per_side": 2
+    },
+    "P": {
+      "shape": "Pentagonal",
+      "nose_angle_deg": 108,
+      "edge_count_per_side": 5
+    },
+    "H": {
+      "shape": "Hexagonal",
+      "nose_angle_deg": 120,
+      "edge_count_per_side": 6
+    },
+    "O": {
+      "shape": "Octagonal",
+      "nose_angle_deg": 135,
+      "edge_count_per_side": 8
+    }
+  },
+  "clearance": {
+    "A": 3,
+    "B": 5,
+    "C": 7,
+    "D": 15,
+    "E": 20,
+    "F": 25,
+    "G": 30,
+    "N": 0,
+    "P": 11,
+    "X": null
+  },
+  "tolerances": {
+    "M": [
+      null,
+      null,
+      0.13
+    ],
+    "G": [
+      0.025,
+      0.025,
+      0.13
+    ],
+    "E": [
+      0.025,
+      0.025,
+      0.025
+    ],
+    "A": [
+      0.025,
+      0.005,
+      0.025
+    ],
+    "F": [
+      0.013,
+      0.005,
+      0.025
+    ],
+    "C": [
+      0.025,
+      0.013,
+      0.025
+    ],
+    "H": [
+      0.013,
+      0.013,
+      0.025
+    ],
+    "J": [
+      0.005,
+      0.025,
+      null
+    ],
+    "K": [
+      0.013,
+      0.025,
+      null
+    ],
+    "L": [
+      0.025,
+      0.025,
+      null
+    ],
+    "N": [
+      0.025,
+      null,
+      null
+    ],
+    "U": [
+      0.13,
+      null,
+      null
+    ]
+  },
+  "m_tolerances": [
+    [
+      "D",
+      [
+        4,
+        10
+      ],
+      0.05,
+      0.11
+    ],
+    [
+      "D",
+      [
+        12.7
+      ],
+      0.08,
+      0.15
+    ],
+    [
+      "D",
+      [
+        15.87,
+        19.05
+      ],
+      0.1,
+      0.18
+    ],
+    [
+      "V",
+      [],
+      0.05,
+      0.16
+    ],
+    [
+      "All other shapes",
+      [
+        4,
+        10
+      ],
+      0.05,
+      0.08
+    ],
+    [
+      "All other shapes",
+      [
+        12,
+        12.7
+      ],
+      0.08,
+      0.13
+    ],
+    [
+      "All other shapes",
+      [
+        15.87,
+        20
+      ],
+      0.1,
+      0.15
+    ],
+    [
+      "All other shapes",
+      [
+        25,
+        25.4
+      ],
+      0.13,
+      0.18
+    ],
+    [
+      "All other shapes",
+      [
+        31.75,
+        32
+      ],
+      0.15,
+      0.2
+    ]
+  ],
+  "configuration": {
+    "G": [
+      "Cylindrical fixing hole",
+      "Both faces"
+    ],
+    "M": [
+      "Cylindrical fixing hole",
+      "One face"
+    ],
+    "A": [
+      "Cylindrical fixing hole",
+      "None"
+    ],
+    "T": [
+      "Cylindrical hole + 40-60 deg countersink on one side",
+      "One face"
+    ],
+    "W": [
+      "Cylindrical hole + 40-60 deg countersink on one side",
+      "None"
+    ],
+    "U": [
+      "Cylindrical hole + 40-60 deg countersinks on both sides",
+      "Both faces"
+    ],
+    "Q": [
+      "Cylindrical hole + 40-60 deg countersinks on both sides",
+      "None"
+    ],
+    "H": [
+      "Cylindrical hole + 70-90 deg countersink on one side",
+      "One face"
+    ],
+    "B": [
+      "Cylindrical hole + 70-90 deg countersink on one side",
+      "None"
+    ],
+    "J": [
+      "Cylindrical hole + 70-90 deg countersinks on both sides",
+      "Both faces"
+    ],
+    "C": [
+      "Cylindrical hole + 70-90 deg countersinks on both sides",
+      "None"
+    ],
+    "F": [
+      "No fixing hole",
+      "Both faces"
+    ],
+    "R": [
+      "No fixing hole",
+      "One face"
+    ],
+    "N": [
+      "No fixing hole",
+      "None"
+    ],
+    "X": [
+      "Special",
+      "Requires drawing/detailed definition"
+    ]
+  },
+  "sizes": [
+    {
+      "mm": 3.97,
+      "inch": 0.15625,
+      "ansi": "1.2",
+      "iso": {
+        "S": "03",
+        "T": "06",
+        "D": "04",
+        "V": "06",
+        "W": "02"
+      }
+    },
+    {
+      "mm": 4.76,
+      "inch": 0.1875,
+      "ansi": "1.5",
+      "iso": {
+        "S": "04",
+        "T": "08",
+        "C": "04",
+        "D": "05",
+        "E": "04",
+        "V": "08",
+        "W": "L3"
+      }
+    },
+    {
+      "mm": 5.56,
+      "inch": 0.21875,
+      "ansi": "1.8",
+      "iso": {
+        "S": "05",
+        "T": "09",
+        "C": "05",
+        "D": "06",
+        "E": "05",
+        "V": "09",
+        "W": "03"
+      }
+    },
+    {
+      "mm": 6.35,
+      "inch": 0.25,
+      "ansi": "2",
+      "iso": {
+        "S": "06",
+        "T": "11",
+        "C": "06",
+        "D": "07",
+        "E": "06",
+        "V": "11",
+        "W": "04",
+        "R": "06"
+      }
+    },
+    {
+      "mm": 7.94,
+      "inch": 0.3125,
+      "ansi": "2.5",
+      "iso": {
+        "S": "07",
+        "T": "13",
+        "C": "08",
+        "D": "09",
+        "E": "08",
+        "V": "13",
+        "W": "05",
+        "R": "07"
+      }
+    },
+    {
+      "mm": 9.525,
+      "inch": 0.375,
+      "ansi": "3",
+      "iso": {
+        "S": "09",
+        "T": "16",
+        "C": "09",
+        "D": "11",
+        "E": "09",
+        "V": "16",
+        "W": "06",
+        "R": "09"
+      }
+    },
+    {
+      "mm": 12.7,
+      "inch": 0.5,
+      "ansi": "4",
+      "iso": {
+        "S": "12",
+        "T": "22",
+        "C": "12",
+        "D": "15",
+        "E": "13",
+        "V": "22",
+        "W": "08",
+        "R": "12"
+      }
+    },
+    {
+      "mm": 15.875,
+      "inch": 0.625,
+      "ansi": "5",
+      "iso": {
+        "S": "15",
+        "T": "27",
+        "C": "16",
+        "D": "19",
+        "E": "16",
+        "V": "27",
+        "W": "10",
+        "R": "15"
+      }
+    },
+    {
+      "mm": 19.05,
+      "inch": 0.75,
+      "ansi": "6",
+      "iso": {
+        "S": "19",
+        "T": "33",
+        "C": "19",
+        "D": "23",
+        "E": "19",
+        "V": "33",
+        "W": "13",
+        "R": "19"
+      }
+    },
+    {
+      "mm": 25.4,
+      "inch": 1,
+      "ansi": "8",
+      "iso": {
+        "S": "25",
+        "T": "44",
+        "C": "25",
+        "D": "31",
+        "E": "26",
+        "V": "44",
+        "W": "17",
+        "R": "25"
+      }
+    },
+    {
+      "mm": 31.75,
+      "inch": 1.25,
+      "ansi": "10",
+      "iso": {
+        "S": "31",
+        "T": "54",
+        "C": "32",
+        "D": "38",
+        "E": "32",
+        "V": "54",
+        "W": "21",
+        "R": "31"
+      }
+    }
+  ],
+  "round_m0": {
+    "10": 10,
+    "12": 12,
+    "16": 16,
+    "20": 20,
+    "25": 25,
+    "32": 32,
+    "06": 6,
+    "08": 8
+  },
+  "thickness": [
+    {
+      "iso": "01",
+      "ansi": "1",
+      "mm": 1.59,
+      "inch": 0.0625
+    },
+    {
+      "iso": "02",
+      "ansi": "1.5",
+      "mm": 2.38,
+      "inch": 0.0938
+    },
+    {
+      "iso": "03",
+      "ansi": "2",
+      "mm": 3.18,
+      "inch": 0.125
+    },
+    {
+      "iso": "04",
+      "ansi": "3",
+      "mm": 4.76,
+      "inch": 0.1875
+    },
+    {
+      "iso": "05",
+      "ansi": "3.5",
+      "mm": 5.56,
+      "inch": 0.2188
+    },
+    {
+      "iso": "06",
+      "ansi": "4",
+      "mm": 6.35,
+      "inch": 0.25
+    },
+    {
+      "iso": "07",
+      "ansi": "5",
+      "mm": 7.94,
+      "inch": 0.3125
+    },
+    {
+      "iso": "09",
+      "ansi": "6",
+      "mm": 9.52,
+      "inch": 0.375
+    },
+    {
+      "iso": "12",
+      "ansi": "8",
+      "mm": 12.7,
+      "inch": 0.5
+    },
+    {
+      "iso": "T1",
+      "ansi": "1.2",
+      "mm": 1.98,
+      "inch": 0.0781
+    },
+    {
+      "iso": "T3",
+      "ansi": "2.5",
+      "mm": 3.97,
+      "inch": 0.1563
+    }
+  ],
+  "radius": [
+    {
+      "iso": "00",
+      "ansi": "0",
+      "mm": 0,
+      "inch": 0
+    },
+    {
+      "iso": "01",
+      "ansi": "0.25",
+      "mm": 0.1,
+      "inch": 0.004
+    },
+    {
+      "iso": "02",
+      "ansi": "0.5",
+      "mm": 0.2,
+      "inch": 0.008
+    },
+    {
+      "iso": "04",
+      "ansi": "1",
+      "mm": 0.4,
+      "inch": 0.0156
+    },
+    {
+      "iso": "08",
+      "ansi": "2",
+      "mm": 0.8,
+      "inch": 0.0313
+    },
+    {
+      "iso": "12",
+      "ansi": "3",
+      "mm": 1.2,
+      "inch": 0.0469
+    },
+    {
+      "iso": "16",
+      "ansi": "4",
+      "mm": 1.6,
+      "inch": 0.0625
+    },
+    {
+      "iso": "24",
+      "ansi": "6",
+      "mm": 2.4,
+      "inch": 0.0938
+    },
+    {
+      "iso": "32",
+      "ansi": "8",
+      "mm": 3.2,
+      "inch": 0.125
+    }
+  ]
+}

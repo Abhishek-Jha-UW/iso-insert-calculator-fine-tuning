@@ -1,0 +1,45 @@
+[
+  {
+    "designations": [
+      "DCGW 04T001",
+      "DCGW 04T002",
+      "DCGW 04T004"
+    ],
+    "ic_mm": 3.1,
+    "thickness_mm": 1.2,
+    "source": "https://diamond-toolingsystems.com/wp-content/uploads/2025/04/03_Boring-Bars-Catalog_DTSGmbH_compressed.pdf"
+  },
+  {
+    "designations": [
+      "VCGW 050101",
+      "VCGW 050102",
+      "VCGW 050104"
+    ],
+    "ic_mm": 3.1,
+    "thickness_mm": 1.59,
+    "source": "https://diamond-toolingsystems.com/wp-content/uploads/2025/04/03_Boring-Bars-Catalog_DTSGmbH_compressed.pdf"
+  },
+  {
+    "designations": [
+      "VCGW 070201",
+      "VCGW 070202",
+      "VCGW 070204",
+      "VCGW 070208",
+      "VCGT 070201",
+      "VCGT 070202",
+      "VCGT 070204",
+      "VCGT 070208"
+    ],
+    "ic_mm": 3.97,
+    "thickness_mm": 2.38,
+    "source": "https://www.edgetech.kr/pcd-inserts/v-type/"
+  },
+  {
+    "designations": [
+      "RDHX 0702-M0"
+    ],
+    "ic_mm": 7,
+    "thickness_mm": 2.38,
+    "source": "https://www.lmt-tools.com/en/shop/products/65eX2y1HwU80LM9gX8Wq4v"
+  }
+]
