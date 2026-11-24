@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 from openai import OpenAIError
 
-from branding import render_credit, render_header
+from branding import render_header
 from decoder import MODES, RULES, decode
 from excel_output import MIME_XLSX, results_workbook, upload_template
 from geometry import estimate
@@ -36,6 +36,8 @@ def material_input():
     preset = densities.get(grade)
     if preset:
         st.caption(f"Grade density · {preset} g/cm³")
+        if grade == "Demo grade":
+            st.caption("Illustrative density for testing. Use Custom density for actual parts.")
         return grade, float(preset)
     if grade is not None:
         st.caption("Density unavailable in the grade table. Enter a known value if available.")
@@ -253,7 +255,6 @@ def main():
     render_tolerance_reference()
     render_exceptions(results)
     render_assistant(results)
-    render_credit()
 
 
 if __name__ == "__main__":
